@@ -1,0 +1,142 @@
+
+===== PAGE 1 =====
+Designing a social product around everyday stories, not
+followers.
+Trace is a text-first social platform I designed, built and shipped from scratch — exploring whether everyday stories can become a reason
+to connect, without the performance of traditional social media.
+Project Year My role Timeline
+Trace Live product 2026 UX research
+ 4 weeks
+Wireframing
+
+Prototyping
+
+Building
+The context
+Core question
+What happens to the story that isn't important enough for Instagram, but too interesting to die in your Notes app?
+The deeper problem wasn't: People need another writing app.
+It's: Most social products create a surprisingly high bar for sharing
+Asks you to present yourself.
+Private / zero interaction
+Asks you to do Performative writing
+Asks you to find the right community and understand its norms.
+But most everyday stories begin differently: “You won't believe what happened today…”
+
+That behavioural gap is Trace.
+Understanding the user
+Sharing isn't only a creation problem. It's a behavioural one.
+Discovery
+“I sometimes have an instant urge to share a thought that’s like a bubble, I don’t know where to share it and it bursts in sometime”
+“I don’t like to post on instagram, people put their best lifes on instagram, everything is just so perfect there”
+“I don’t know how to write, I’m afraid of people judging me”
+What’s actually happening
+They have stories - They tell friends on WhatsApp. They tell coworkers something funny that happened. They think about things privately.
+The problem isn't lack of material. The friction is converting everyday experience into something that feels post-worthy.
+The product bet
+I didn’t want to build just another feed
+Most social products start with:
+Person → Post → Followers
+Trace would instead start with:
+Topic → Your story → Other people's stories
+The key design decision - What actually exists
+inside Trace.
+Topic
+Topic Stories
+Shared context.
+
+
+“Something that happened today…”
+ A shared prompt / context Story
+“Probably shouldn't be sharing this…”
+Reactions
+Story - Mahesh
+Story
+Replies
+part 1
+One person's answer to that context.
+Saves
+part 2
+Reads
+Thread
+part 3
+That person's continuing narrative.
+Story - Shruti
+Reply
+part 1
+Conversation around an individual story.
+part 2
+Design for casual expression
+Trace is meant for thoughts and everyday stories not
+essays or blogs. So I deliberately constrained the format:
+
+
+Topics: 100 characters - enough to create context without
+turning prompts into explanations.
+
+
+Stories: 500 characters - enough to tell a meaningful
+moment, but short enough to feel lightweight to both write
+and read.
+Designing Home as a discovery system
+Problem A - How do I make an unfamiliar social network feel alive immediately?
+Trending topics
+Something worth exploring.
+Story previews
+Value without commitment.
+People wrote on this
+Social proof.
+Top creators
+Start recognising people rather than seeing anonymous content.
+I wanted Home to answer three questions within seconds:
+
+
+What's happening? 
+Who's here? 
+What's worth opening?
+Problem B - How do I make a story worth returning to?
+Thread
+Making story a context users can return to
+Topic → Story - Shruti
+part 1
+part 2
+part 3
+Problem C - What if someone isn't ready to write?
+Read & interact
+Lot of users come with very little commitment and almost no intent to write
+anything, so taking them through a series of action with each action pushing
+them slightly towards the end goal of writing.
+Read → React → Reply → Write → Continue
+One prompt. Many lives
+A Single Thread Stories
+Follow one person's story.  See how everyone answered the same topic.
+Putting it in front of users
+Then I stopped designing for hypothetical users.
+The first version went live to a small early user base rather than being tested only through prototypes.
+50+ users in a week
+100+ stories written
+DAU - 40%
+Interesting topics have an average of 3+ users writing on it
+Signal 1 Signal 2
+People were willing to write actual personal stories. People responded to stories rather than only consuming.
+Signal 03 Signal 04
+Topics could generate multiple perspectives. Some people continued stories.
+Where Trace stands
+Trace started with a simple hypothesis: people have everyday stories to share, but traditional social platforms make it hard to post them.
+Early usage validated part of this. People wrote personal stories, responded to topics, continued narratives, and engaged in replies —
+showing that topics can lower the barrier to expression and that everyday experiences can become meaningful content.
+That showed topics could successfully lower the barrier to expression, and that everyday experiences were interesting enough to become
+social content.
+But a second problem emerged. Getting someone to write once is very different from getting them to return.
+While users were willing to explore and participate, retention was weak. I had initially centered the product around creation, but behaviour
+showed a stronger need for discovery before participation. This shifted Trace’s direction toward prioritising interesting stories, people, and
+narrative continuity before creation, while keeping writing available when users are ready.
+So the problem evolved from: “How do I make everyday stories easier to share?”
+
+to:
+
+“How do I make them worth coming back for?”
+
+
+That is what I am now validating.
+Thank you for reading!

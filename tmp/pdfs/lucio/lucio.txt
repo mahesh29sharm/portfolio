@@ -1,0 +1,138 @@
+
+
+===== PAGE 1 =====
+
+Redesigning Lucio Assistant around how 
+lawyers actually work
+The starting point
+The AI was capable. The experience 
+wasn't yet built around legal work.
+1. Documents separated from conversation(
+2. AI context difficult to keep track of
+(3. Growing number of controls/features(
+4. Product organised around capabilities
+
+Lucio had grown rapidly as new AI capabilities 
+were added. The immediate UX worked, but the 
+underlying interaction model increasingly reflected 
+how the AI worked, rather than how lawyers 
+worked.
+I deliberately didn't start with the redesign
+First, I needed to understand a very different kind of user.
+Scope
+Sample size
+Research questions:
+
+How does legal work move from documents to an output?
+Where does AI enter that workflow today?
+What makes a lawyer trust, verify or abandon AI?
+Team
+Corporate 
+Transactional 
+Disputes 
+In-house
+24+ lawyer interviews
+UX consultant
+Co-founder
+I wasn't asking users what features they wanted. I was trying to reconstruct how work actually happened.
+How I conducted the interviews
+Role ™ Recent matter ™ Workflow ™ Friction ™ Workaround ™ AI usage ™ Failure ™ Trust
+˝Walk me through the last matter you worked on.˛
+˝What documents did you receive first?˛
+˝How did you know you hadn't missed something?˛
+˝Where did you need to verify your work?˛
+˝At what point would you trust or not trust AI?˛
+I captured observations by task, workflow, tools, pain points, workarounds, AI behaviour and trust concerns.
+The synthesis
+The biggest insight: lawyers don't fundamentally work in chats. They work in matters.
+Raw material(
+ Documents / emails / notices / contracts
+ﬁ
+Structure(
+ Parties / clauses / dates / sections / versions
+ﬁ
+Facts(
+ What happened?
+ﬁ
+Issues & reasoning(
+ What matters legally?
+ﬁ
+Action(
+ Draft / advice / review / research / filing
+Existing product model: Query ™ Response ™ Query ™ Response
+
+That became the central product shift. Chat was an interaction mechanism. It shouldn't be the information architecture.
+Research ™ design principles
+I turned recurring research patterns into product principles before designing features.
+Trust - Don't require blind confidence in AI.
+Visibility - Make context and system state explicit.
+Control - Let lawyers decide what the AI works with.
+Traceability - Every important output should lead back to evidence.
+Continuity - Legal work persists across hours and days.
+Scale - The same model must survive 3 documents or 300.
+These became the criteria used to evaluate design directions.
+Before ™ After
+From AI conversation ™ persistent legal workspace
+These became the criteria used to evaluate design directions.
+Before
+After
+Chat was primary(
+Documents were supporting attachments
+(C ontext was fragmented
+Session became the workspace(
+Documents became persistent context(
+Matter structure remained visible
+What actually changed
+Research changed the product architecture, not just the interface.
+Persistent sessions - A session represents ongoing legal work rather than disposable chat history.
+Files + session together - Documents live with the matter and retain their organization.
+Visible active context - Selected files appear directly inside the composer.
+Continuity - Users can leave and return without reconstructing context, suggested follow-ups made session context more useful.
+Progressive navigation - Low-usage capabilities moved under More, based partly on usage data.
+Traceability - Response included internal citations that highlights the source material, files retained original hierarchy.
+These became the criteria used to evaluate design directions.
+Repeated work became reusable knowledge
+We also found that good legal prompts were becoming informal organizational knowledge.
+Repeated task(
+ ﬁ(
+Good prompt(
+ ﬁ(
+Reusable / shareable workflow
+Prompt Library reduced dependence on individual prompt-writing ability and made repeatable workflows easier to standardize.
+Shipped product walkthrough
+From design decisions to the shipped Assistant
+¶ Watch 60-sec product walkthrough
+Design under engineering constraints
+Research pointed toward a Drive-like system. Engineering constraints changed how we got there.
+Direction explored:
+Full Drive / matter-management model
+
+Advantages:
+ mirrors lawyer organisation
+ persistent hierarchy
+ powerful at scale(
+But:
+ large infrastructure change
+ permissions/persistence complexity
+ significant implementation cost
+Direction shipped:
+Session as persistent workspace
+
+Preserved:
+continuity
+hierarchy
+document context
+matter mental model
+
+without rebuilding an entire DMS.
+Prompt Library reduced dependence on individual prompt-writing ability and made repeatable workflows easier to standardize.
+Validation & impact
+After launch, we looked for behavioural and operational change not just positive feedback.
+50%+
+At one firm, more than half of lawyers began choosing Lucio over ChatGPT.
+ﬁ Support friction
+CS reported significantly fewer workflow-related / non-bug questions.
+100+ firms
+Lucio expanded to 100+ additional firms during the period following the new product rollout.
+Firm growth was influenced by multiple business factors; I wouldn't attribute this solely to the redesign.
+Thank you for reading!
