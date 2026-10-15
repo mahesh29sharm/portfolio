@@ -155,8 +155,8 @@ export function HomePage() {
             <div className="footer-row">
               <span>Mahesh · Design Engineer · Bengaluru</span>
               <div>
-                <a href="#">LinkedIn</a>
-                <a href="#">Resume</a>
+                <a href="https://www.linkedin.com/in/mahesh-sharma-64196a145/">LinkedIn</a>
+                <a href="https://drive.google.com/file/d/1QZFUUoq6Znqqd5v2CX2VGmZbrhjp1ltb/view?usp=drive_link">Resume</a>
                 <a href="#top">Back to top ↑</a>
               </div>
             </div>
